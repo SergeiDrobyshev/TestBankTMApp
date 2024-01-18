@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/currency_rates"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/cur_BYN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/currency_byn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="12dp"
+        android:textSize="32sp"
+        style="@style/NotCapsButton"
+        android:background="@drawable/shape"/>
+
+    <Button
+        android:id="@+id/cur_basket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/currency_basket"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="12dp"
+        android:textSize="32sp"
+        style="@style/NotCapsButton"
+        android:background="@drawable/shape"/>
+
+    <Button
+        android:id="@+id/cur_shedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/currency_shedule"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="12dp"
+        android:textSize="32sp"
+        style="@style/NotCapsButton"
+        android:background="@drawable/shape"/>
+
+</LinearLayout>

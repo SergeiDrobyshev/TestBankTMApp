@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TestBankTMApp</string>
+
+    <string name="currency_rates">Курсы валют</string>
+    <string name="currency_byn">Курсы BYN</string>
+    <string name="currency_basket">Корзина валют</string>
+    <string name="currency_shedule">График</string>
+
+    <string name="currency_rates_today">Официальные курсы белорусского рубля по отношению к
+        иностранным валютам,устанавливаемые НБ РБ ежедневно, на %1$s </string>
+    <string name="update">Обновить</string>
+
+    <string name="currency_basket_label">Официальные курсы белорусского рубля по отношению к
+        иностранным валютам и стоимость корзины иностранных валют на %1$s</string>
+    <string name="show_basket">Вывести</string>
+    <string name="select_date">Выберите дату</string>
+
+
+</resources>
